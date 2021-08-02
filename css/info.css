@@ -1,0 +1,32 @@
+.info {
+  padding: 5rem 2rem;
+  text-align: center;
+}
+.info .img {
+  max-width:30rem;
+}
+@media screen and (min-width: 1024px) {
+  .info__wrapper {
+    padding-bottom: 10rem;
+  }
+  .info {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+  }
+  .info__block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+  }
+  .info .sub-title {
+    margin-bottom: 7rem;
+  }
+  .info .img {
+    margin: 0;
+    margin-right: 7rem;
+  }
+  .info .text {
+    margin: 0;
+  }
+}

@@ -1,0 +1,26 @@
+.hero {
+  padding: 5rem 2rem;
+}
+.hero .list {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5rem;
+  max-width: 70rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.hero .img {
+  margin: 0;
+}
+.hero .item {
+    width: 32%;
+}
+@media screen and (min-width: 1024px) {
+  .hero__wrapper {
+    padding-top: 10rem;
+  }
+  .hero {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+  }
+}
